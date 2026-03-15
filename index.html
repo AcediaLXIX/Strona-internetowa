@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nasza Grupa Przewodnicka | Odkryj z nami świat</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        html { scroll-behavior: smooth; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+    <nav class="fixed w-full z-50 bg-white shadow-md">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold text-blue-600">Przewodnicy<span class="text-gray-700">Lokalni</span></div>
+            <div class="hidden md:flex space-x-8 font-medium">
+                <a href="#start" class="hover:text-blue-600 transition">Start</a>
+                <a href="#zespol" class="hover:text-blue-600 transition">Nasi Przewodnicy</a>
+                <a href="#kontakt" class="hover:text-blue-600 transition">Kontakt</a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="start" class="h-screen flex items-center justify-center bg-cover bg-center" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');">
+        <div class="text-center text-white px-4">
+            <h1 class="text-5xl md:text-7xl font-bold mb-6">Przygoda zaczyna się tutaj</h1>
+            <p class="text-xl md:text-2xl mb-8 max-w-2xl mx-auto">Poznaj historie, których nie przeczytasz w przewodnikach. Grupa pasjonatów zaprasza na wspólne szlaki.</p>
+            <a href="#zespol" class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-full text-lg font-semibold transition transform hover:scale-105 inline-block">Poznaj nas</a>
+        </div>
+    </section>
+
+    <section class="py-20 bg-white text-center">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold mb-4">Dlaczego my?</h2>
+            <div class="w-16 h-1 bg-blue-600 mx-auto mb-8"></div>
+            <p class="max-w-3xl mx-auto text-gray-600 leading-relaxed text-lg">
+                Jesteśmy licencjonowaną grupą przewodników, dla których praca to styl życia. Każdy z nas specjalizuje się w innym aspekcie naszego regionu, od historii średniowiecza po najdziksze zakątki natury.
+            </p>
+        </div>
+    </section>
+
+    <section id="zespol" class="py-20 bg-gray-100">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold mb-12">Poznaj naszych przewodników</h2>
+            
+            <div class="grid md:grid-cols-3 gap-10">
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden transition transform hover:-translate-y-2">
+                    <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Przewodnik" class="w-full h-80 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Anna Kowalska</h3>
+                        <p class="text-blue-600 font-semibold mb-4">Ekspertka Historii Miasta</p>
+                        <p class="text-gray-600">Anna potrafi opowiadać o murach obronnych tak, jakby same ożywały. Zna każdą legendę.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden transition transform hover:-translate-y-2">
+                    <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Przewodnik" class="w-full h-80 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Marek Nowak</h3>
+                        <p class="text-blue-600 font-semibold mb-4">Przewodnik Górski i Przyrodnik</p>
+                        <p class="text-gray-600">Z Markiem wejdziesz na szczyty, których nie ma na mapach. Specjalista od fauny i flory.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden transition transform hover:-translate-y-2">
+                    <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Przewodnik" class="w-full h-80 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Katarzyna Zielińska</h3>
+                        <p class="text-blue-600 font-semibold mb-4">Animatorka Wycieczek Dziecięcych</p>
+                        <p class="text-gray-600">Sprawia, że dzieci zapominają o telefonach. Jej wycieczki to wielka gra terenowa.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="kontakt" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-2 gap-12">
+                
+                <div>
+                    <h2 class="text-3xl font-bold mb-6">Zaplanuj swoją wycieczkę</h2>
+                    <p class="text-gray-600 mb-8 text-lg">Napisz do nas! Odpowiemy w ciągu 24 godzin i pomożemy dobrać najlepszą trasę dla Twojej grupy.</p>
+                    
+                    <div class="space-y-4">
+                        <div class="flex items-center">
+                            <div class="bg-blue-100 p-3 rounded-full mr-4 text-blue-600"><i class="fas fa-phone"></i></div>
+                            <span class="text-lg">+48 123 456 789</span>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="bg-blue-100 p-3 rounded-full mr-4 text-blue-600"><i class="fas fa-envelope"></i></div>
+                            <span class="text-lg">kontakt@przewodnicy.pl</span>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="bg-blue-100 p-3 rounded-full mr-4 text-blue-600"><i class="fas fa-location-dot"></i></div>
+                            <span class="text-lg">Rynek Główny 1, Kraków</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-gray-50 p-8 rounded-2xl shadow-inner border border-gray-200">
+                    <form action="https://formspree.io/f/TWÓJ_EMAIL" method="POST">
+                        <div class="mb-4">
+                            <label class="block text-sm font-semibold mb-2">Twoje Imię</label>
+                            <input type="text" name="name" required class="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 outline-none">
+                        </div>
+                        <div class="mb-4">
+                            <label class="block text-sm font-semibold mb-2">Adres E-mail</label>
+                            <input type="email" name="email" required class="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 outline-none">
+                        </div>
+                        <div class="mb-4">
+                            <label class="block text-sm font-semibold mb-2">Treść zapytania</label>
+                            <textarea name="message" rows="4" required class="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 outline-none"></textarea>
+                        </div>
+                        <button type="submit" class="w-full bg-blue-600 text-white font-bold py-3 rounded-lg hover:bg-blue-700 transition">Wyślij wiadomość</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-900 text-white py-10 text-center">
+        <p>&copy; 2026 Grupa Przewodnicka. Wszystkie prawa zastrzeżone.</p>
+    </footer>
+
+</body>
+</html>
